@@ -1,0 +1,41 @@
+{
+    "name": "cls/select2-field-for-sprout-forms",
+    "description": "Implements a Select2 field, based on the single line text element for Sprout Forms.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "select2 field for sprout forms"
+    ],
+    "support": {
+        "docs": "https://github.com/cls-program/select2-field-for-sprout-forms/blob/master/README.md",
+        "issues": "https://github.com/cls-program/select2-field-for-sprout-forms/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew McCullough",
+            "homepage": "https://www.clscholarship.org/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+	"barrelstrength/sprout-forms": "^3.0.0-beta.47"
+    },
+    "autoload": {
+        "psr-4": {
+          "cls\\select2fieldforsproutforms\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Select2 Field for Sprout Forms",
+        "handle": "select2-field-for-sprout-forms",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/cls-program/select2-field-for-sprout-forms/master/CHANGELOG.md",
+        "class": "cls\\select2fieldforsproutforms\\Select2FieldForSproutForms"
+    }
+}
